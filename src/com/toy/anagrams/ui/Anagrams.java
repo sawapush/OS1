@@ -221,9 +221,10 @@ public class Anagrams extends JFrame {
 
         getContentPane().add(mainPanel, java.awt.BorderLayout.CENTER);
 
-        fileMenu.setMnemonic('F');
-        fileMenu.setText("File");
-
+        //fileMenu.setMnemonic('F');
+        //fileMenu.setText("File");
+        fileMenu.setText("奥井鈴乃　押名爽　オーエス");
+        
         aboutMenuItem.setMnemonic('A');
         aboutMenuItem.setText("About");
         aboutMenuItem.setToolTipText("About");
